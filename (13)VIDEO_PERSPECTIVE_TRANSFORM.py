@@ -11,9 +11,3 @@ Type "help", "copyright", "credits" or "license()" for more information.
 	t=cv2.warpPerspective(v,c,(600,600))
 	cv2.imshow("perspective",t)
 
-Traceback (most recent call last):
-  File "<pyshell#10>", line 3, in <module>
-    t=cv2.warpPerspective(v,c,(600,600))
-cv2.error: OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\imgwarp.cpp:3144: error: (-215:Assertion failed) _src.total() > 0 in function 'cv::warpPerspective'
-
->>> 
